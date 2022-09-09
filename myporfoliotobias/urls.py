@@ -22,7 +22,7 @@ from blogapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index.html', views.index),
-    path('', views.index),
+    path('Porfolio-tobias.github.io', views.index),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
