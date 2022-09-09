@@ -21,6 +21,7 @@ from blogapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('index.html', views.index),
     path('', views.index),
 ]
 
